@@ -1,0 +1,16 @@
+// Skip link specific styles. Intentionally separate from this theme's sr-only class.
+.component {
+  color: var(--wpe--color--white);
+  background-color: var(--wpe--color--black);
+  padding: 0.5rem 0.8rem;
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  z-index: 1000;
+
+  &:focus {
+    position: absolute;
+    left: 0.5rem;
+    top: 0.5rem;
+  }
+}
